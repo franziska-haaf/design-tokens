@@ -739,7 +739,7 @@
       "description": "Used for\n- Text"
     },
     "text-primary": {
-      "value": "{brand.text-primary}",
+      "value": "{brand.primary-subtle}",
       "type": "color"
     },
     "text-success": {
