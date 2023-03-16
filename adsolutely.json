@@ -1,0 +1,957 @@
+{
+  "core": {
+    "Divider": {
+      "value": {
+        "color": "#0000001a",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "1",
+        "blur": "0",
+        "spread": "0"
+      },
+      "type": "boxShadow"
+    },
+    "Dialog elevation": {
+      "value": {
+        "color": "#333c4233",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "0",
+        "blur": "20",
+        "spread": "2"
+      },
+      "type": "boxShadow"
+    },
+    "Menu elevation": {
+      "value": {
+        "color": "#333c421f",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "8",
+        "blur": "12",
+        "spread": "0"
+      },
+      "type": "boxShadow"
+    },
+    "fontFamilies": {
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "inter-0": {
+        "value": "Thin",
+        "type": "fontWeights"
+      },
+      "inter-1": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
+      "inter-2": {
+        "value": "Light",
+        "type": "fontWeights"
+      },
+      "inter-3": {
+        "value": "Italic",
+        "type": "fontWeights"
+      },
+      "inter-4": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "11",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "22",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "57",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "1": {
+        "value": "0.15",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "Display": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.4}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Display is the largest text available. Use it for short, important text or numerals.\nYou can choose an expressive typefaces for Display if you like (handwritten, script style, ...)."
+    },
+    "Display bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.4}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Headline": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-2}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "A bit smaller than Display. Best suited for short, high-emphasis text on mobile devices.\nCan be used for marking primary passages of text or important regions of content."
+    },
+    "Headline bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.3}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Title": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-2}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Smaller than Headline. Should be used for shorter, medium-emphasis text. For example for dividing secondary passages of text or secondary regions of content."
+    },
+    "Title bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.2}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
+    },
+    "Label": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-3}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Smaller, utilitarian styles used for text inside components (buttons, chips, ...) or for captions."
+    },
+    "Label Small": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-3}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Smaller, utilitarian styles used for text inside components (buttons, chips, ...) or for captions."
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-4}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "For longer passages of text - your default body font!"
+    },
+    "Body bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.1}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Use wisely, e.g. to emphasize individual words in a text passage."
+    },
+    "Body underlined": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-4}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.1}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "description": "Use for interactive text like <a> or Ghost-/Textbuttons"
+    },
+    "Body Small": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-4}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "For longer passages of text - your default body font!"
+    },
+    "Body small bold": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-1}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Use wisely, e.g. to emphasize individual words in a text passage."
+    },
+    "Body small underlined": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-4}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.underline}"
+      },
+      "type": "typography",
+      "description": "Use for interactive text like <a> or Ghost-/Textbuttons"
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "value": "0px",
+        "type": "dimension"
+      }
+    },
+    "green": {
+      "default": {
+        "value": "#4EC78A",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#A6F7CF",
+        "type": "color"
+      },
+      "subtle-2": {
+        "value": "#A7D2BD",
+        "type": "color"
+      },
+      "pronounced": {
+        "value": "#4A7063",
+        "type": "color"
+      },
+      "pronounced-2": {
+        "value": "#21573C",
+        "type": "color"
+      }
+    },
+    "yellow": {
+      "default": {
+        "value": "#FBAE3A",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#FFE06B",
+        "type": "color"
+      },
+      "subtle-2": {
+        "value": "#FDD69B",
+        "type": "color"
+      },
+      "pronounced": {
+        "value": "#8D5C02",
+        "type": "color"
+      },
+      "pronounced-2": {
+        "value": "#817741",
+        "type": "color"
+      }
+    },
+    "pink": {
+      "default": {
+        "value": "#E91E63",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "#FFAAC4",
+        "type": "color"
+      },
+      "pronounced": {
+        "value": "#B0003A",
+        "type": "color"
+      },
+      "pronounced-2": {
+        "value": "#6E515E",
+        "type": "color"
+      }
+    },
+    "grey": {
+      "100": {
+        "value": "#F7F7F7",
+        "type": "color"
+      },
+      "101": {
+        "value": "#E9E9E9",
+        "type": "color"
+      },
+      "200": {
+        "value": "#D9EDF7",
+        "type": "color"
+      },
+      "400": {
+        "value": "#C8D0D5",
+        "type": "color"
+      },
+      "401": {
+        "value": "#96A0A6",
+        "type": "color"
+      },
+      "402": {
+        "value": "#96999C",
+        "type": "color"
+      },
+      "403": {
+        "value": "#4B5358",
+        "type": "color"
+      },
+      "900": {
+        "value": "#333C42",
+        "type": "color"
+      },
+      "901": {
+        "value": "#0A2330",
+        "type": "color"
+      },
+      "902": {
+        "value": "#0D161B",
+        "type": "color"
+      },
+      "903": {
+        "value": "#21282C",
+        "type": "color"
+      }
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    }
+  },
+  "brand": {
+    "brand": {
+      "primary": {
+        "value": "{grey.900}",
+        "type": "color"
+      },
+      "primary-subtle": {
+        "value": "{grey.402}",
+        "type": "color"
+      },
+      "cta": {
+        "value": "{pink.default}",
+        "type": "color"
+      },
+      "cta-subtle": {
+        "value": "{pink.subtle}",
+        "type": "color"
+      },
+      "cta-pronounced": {
+        "value": "{pink.pronounced}",
+        "type": "color"
+      },
+      "text-primary": {
+        "value": "{grey.900}",
+        "type": "color"
+      },
+      "text-cta": {
+        "value": "{pink.pronounced}",
+        "type": "color"
+      },
+      "text-on-cta": {
+        "value": "rgba({white},0.87)",
+        "type": "color"
+      },
+      "text-on-cta-subtle": {
+        "value": "rgba({black},0.87)",
+        "type": "color"
+      },
+      "text-on-primary": {
+        "value": "rgba({white},0.87)",
+        "type": "color"
+      },
+      "text-on-primary-subtle": {
+        "value": "rgba({black},0.87)",
+        "type": "color"
+      }
+    }
+  },
+  "light": {
+    "text": {
+      "value": "rgba({grey.902},0.9)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-subtle": {
+      "value": "rgba({grey.901},0.6)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-disabled": {
+      "value": "rgba({grey.901},0.38)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-primary": {
+      "value": "{brand.text-primary}",
+      "type": "color"
+    },
+    "text-success": {
+      "value": "{green.pronounced-2}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-warning": {
+      "value": "{yellow.pronounced}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-error": {
+      "value": "{pink.pronounced}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-cta": {
+      "value": "{brand.text-cta}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-success": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-warning": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-error": {
+      "value": "rgba({white},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-cta": {
+      "value": "{brand.text-on-cta}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-primary": {
+      "value": "{brand.text-on-primary}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-primary-subtle": {
+      "value": "{brand.text-on-primary-subtle}",
+      "type": "color"
+    },
+    "bg": {
+      "value": "{white}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-pronounced": {
+      "value": "{grey.100}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-pronounced-2": {
+      "value": "{grey.101}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-success": {
+      "value": "{green.default}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Text\n- Border"
+    },
+    "bg-success-subtle": {
+      "value": "rgba({green.default},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-warning": {
+      "value": "{yellow.default}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Text\n- Border"
+    },
+    "bg-warning-subtle": {
+      "value": "rgba({yellow.default},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-error": {
+      "value": "{pink.default}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-error-subtle": {
+      "value": "rgba({pink.default},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-cta": {
+      "value": "{brand.cta}",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border"
+    },
+    "bg-cta-subtle": {
+      "value": "rgba({brand.cta},.18)",
+      "type": "color"
+    },
+    "bg-primary": {
+      "value": "{brand.primary}",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border"
+    },
+    "bg-primary-subtle": {
+      "value": "{brand.primary-subtle}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Border"
+    },
+    "border": {
+      "value": "rgba({grey.901},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-subtle": {
+      "value": "rgba({grey.401},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-subtle-2": {
+      "value": "rgba({grey.400},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-primary": {
+      "value": "{brand.primary}",
+      "type": "color"
+    },
+    "border-error": {
+      "value": "{pink.default}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-warning": {
+      "value": "{yellow.default}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-success": {
+      "value": "{green.default}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-cta": {
+      "value": "{brand.cta}",
+      "type": "color"
+    },
+    "overlay-default-4": {
+      "value": "rgba({grey.900},.04)",
+      "type": "color"
+    },
+    "overlay-default-8": {
+      "value": "rgba({grey.900},.08)",
+      "type": "color"
+    },
+    "overlay-default-12": {
+      "value": "rgba({grey.900},.12)",
+      "type": "color"
+    },
+    "overlay-default-24": {
+      "value": "rgba({grey.900},.24)",
+      "type": "color"
+    },
+    "graph-1": {
+      "value": "#4477aa",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-2": {
+      "value": "#ee6677",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-3": {
+      "value": "#228833",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-4": {
+      "value": "#ccbb44",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-5": {
+      "value": "#66ccee",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-6": {
+      "value": "#aa3377",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-7": {
+      "value": "#bbbbbb",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    }
+  },
+  "dark": {
+    "text": {
+      "value": "rgba({white},0.9)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-subtle": {
+      "value": "rgba({grey.200},0.6)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-disabled": {
+      "value": "rgba({grey.200},0.38)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-primary": {
+      "value": "{brand.text-primary}",
+      "type": "color"
+    },
+    "text-success": {
+      "value": "{green.subtle}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-warning": {
+      "value": "{yellow.subtle}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-error": {
+      "value": "{pink.subtle}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-cta": {
+      "value": "{brand.cta-subtle}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-success": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-warning": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-error": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-cta": {
+      "value": "rgba({black},0.87)",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-primary": {
+      "value": "{black}",
+      "type": "color",
+      "description": "Used for\n- Text"
+    },
+    "text-on-primary-subtle": {
+      "value": "rgba({white},0.87)",
+      "type": "color"
+    },
+    "bg": {
+      "value": "{grey.902}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-pronounced": {
+      "value": "rgba({grey.100},.03)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-pronounced-2": {
+      "value": "rgba({grey.101},.03)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-success": {
+      "value": "{green.subtle}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Text\n- Border"
+    },
+    "bg-success-subtle": {
+      "value": "rgba({green.subtle},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-warning": {
+      "value": "{yellow.subtle}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Text\n- Border"
+    },
+    "bg-warning-subtle": {
+      "value": "rgba({yellow.subtle},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-error": {
+      "value": "{pink.subtle}",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-error-subtle": {
+      "value": "rgba({pink.subtle},.18)",
+      "type": "color",
+      "description": "Used for\n- Background"
+    },
+    "bg-cta": {
+      "value": "{brand.cta-subtle}",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border"
+    },
+    "bg-cta-subtle": {
+      "value": "rgba({brand.cta-subtle},.18)",
+      "type": "color"
+    },
+    "bg-primary": {
+      "value": "{brand.primary-subtle}",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border"
+    },
+    "bg-primary-subtle": {
+      "value": "{brand.primary}",
+      "type": "color",
+      "description": "Used for\n- Background\n- Border"
+    },
+    "border": {
+      "value": "rgba({grey.200},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-subtle": {
+      "value": "rgba({grey.403},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-subtle-2": {
+      "value": "rgba({grey.903},.6)",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-primary": {
+      "value": "{brand.primary-subtle}",
+      "type": "color"
+    },
+    "border-error": {
+      "value": "{pink.subtle}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-warning": {
+      "value": "{yellow.subtle}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-success": {
+      "value": "{green.subtle}",
+      "type": "color",
+      "description": "Used for\n- Border"
+    },
+    "border-cta": {
+      "value": "{brand.cta-subtle}",
+      "type": "color"
+    },
+    "overlay-default-4": {
+      "value": "rgba({grey.402},.04)",
+      "type": "color"
+    },
+    "overlay-default-8": {
+      "value": "rgba({grey.402},.08)",
+      "type": "color"
+    },
+    "overlay-default-12": {
+      "value": "rgba({grey.402},.12)",
+      "type": "color"
+    },
+    "overlay-default-24": {
+      "value": "rgba({grey.402},.24)",
+      "type": "color"
+    },
+    "graph-1": {
+      "value": "#365F88",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-2": {
+      "value": "#BE525F",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-3": {
+      "value": "#1B6D29",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-4": {
+      "value": "#A39636",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-5": {
+      "value": "#52A3BE",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-6": {
+      "value": "#88295F",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    },
+    "graph-7": {
+      "value": "#969696",
+      "type": "color",
+      "description": "Used for\n- Text\n- Background\n- Border\n__________\nColorblindness suitable color. \nBased on https://personal.sron.nl/~pault/"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "brand",
+      "light",
+      "dark"
+    ]
+  }
+}
